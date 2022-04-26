@@ -1,0 +1,101 @@
+
+.login button {
+    background-color: #2e2e3e;
+    font-size: 26px;
+    border: 2px solid white;
+    color:white;
+}
+
+.login-area {
+    width: 400px;
+    height: 600px;
+    background: rgba(46, 46, 62, 95%);
+    margin: 15px 0 35px 0;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.login-area>small {
+    color: red;
+}
+
+.login-area a:first-child{
+    width: 30%;
+    margin: 50px 0 80px 0;
+}
+
+
+.login-area img {
+    width: 30%;
+    padding-left: 150px;
+    margin-bottom: 60px;
+    margin-top: 60px;
+}
+
+.login-area input {
+    outline: none;
+    margin: 10px;
+    width: 70%;
+    height: 30px;
+    padding: 1%;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+
+}
+
+::-ms-reveal {
+    border: 1px solid transparent;
+    border-radius: 50%;
+    box-shadow: 0 0 3px currentColor;
+}
+
+.login-area input.login-button {
+    height: 40px;
+    width: 150px;
+    background-color: #3983d7;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.login-area input.login-button:hover {
+    background-color: #4733fd;
+    transition: 0.2s;
+}
+
+.login-area input.login-button:active {
+    background-color: #3983d7;
+}
+
+.login-area input.reg-button {
+    height: 40px;
+    width: 250px;
+    background-color: #4bb34b;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.login-area input.reg-button:hover {
+    background-color: #7bdb7b;
+    transition: 0.2s;
+}
+
+.login-area input.reg-button:active {
+    background-color: #4bb34b;
+}
+
+.login-area a {
+    color: #3983d7;
+    text-decoration: none;
+}
+
+.login-area a:hover {
+    text-decoration: underline;
+    color: #2a6ebb;
+}
+
